@@ -7,6 +7,14 @@
 //
 
 import Foundation
+var products = Products()
+var cart = Cart()
 
-print("Hello, World!")
-
+print("What is your name?")
+let myName = readLine()
+print("Hi, \(myName!)")
+print("Enter your balance: ")
+var balance = readLine()
+var newBalance = 0
+products.printProductList()
+cart.printProduct()
